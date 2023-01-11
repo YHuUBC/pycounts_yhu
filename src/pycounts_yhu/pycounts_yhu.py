@@ -65,6 +65,7 @@ def count_words(input_file):
     Examples
     --------
     >>> count_words("text.txt")
+    """
     text = load_text(input_file)
     text = clean_text(text)
     words = text.split()
